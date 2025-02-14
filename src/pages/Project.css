@@ -1,0 +1,94 @@
+.projects-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: white;
+  }
+  
+  .project-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #00a8ff;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .project-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .tab-button.active,
+  .tab-button:hover {
+    background: #00a8ff;
+  }
+  
+  .project-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 168, 255, 0.5);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project-description {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #ddd;
+  }
+  
+  .project-details {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .project-details li {
+    font-size: 1rem;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-details li::before {
+    content: "⚡";
+    margin-right: 10px;
+    color: #00a8ff;
+  }
+  

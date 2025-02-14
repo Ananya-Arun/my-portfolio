@@ -1,0 +1,207 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #00d4ff;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  
+  .typed-text {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  .home-subtitle {
+    font-size: 2.0rem;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .home-title {
+      font-size: 2.5rem;
+    }
+    .typed-text {
+      font-size: 1.5rem;
+    }
+  }
+  .hi-text {
+    font-size: 2.5rem;  /* Increase this for larger text */
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 15%; /* Moves it higher */
+    left: 10%; /* Moves it towards the left */
+}
+
+.name-text {
+    font-size: 4.5rem;  /* Increase this for a larger name */
+    font-weight: bold;
+    color: #00d4ff; /* Highlight the name */
+    position: absolute;
+    top: 22%; /* Moves it higher */
+    left: 10%; /* Moves it towards the left */
+}
+.role-text {
+    font-size: 2.5rem; /* Bigger and more readable */
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.7);
+    margin-top: 10px;
+}
+
+.enhanced-role-text {
+    animation: glow-effect 1.5s infinite alternate;
+}
+
+@keyframes glow-effect {
+    from {
+        text-shadow: 0 0 10px rgba(0, 212, 255, 0.7);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(0, 212, 255, 1);
+    }
+}
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 80%;
+    max-width: 400px;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 1024px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-section {
+        margin-top: 30px;
+    }
+    .profile-image {
+        width: 60%;
+    }
+}
+.image-section {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .skills-section, .projects-section, .contact-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: white;
+  }
+  
+  .skills-section h2, .projects-section h2, .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00d4ff;
+  }
+  
+  .skills-section ul, .projects-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-section li, .projects-section li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #1a1a2e; /* Dark background for contrast */
+    color: white;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00d4ff; /* Highlight color for heading */
+  }
+  
+  .contact-section p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .contact-section a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-section a:hover {
+    color: #00d4ff; /* Change color on hover */
+  }
+  
+  .contact-section a:visited {
+    color: #00d4ff; /* Keep link color consistent after visit */
+  }
+  
