@@ -43,6 +43,7 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://Ananya-Arun.github.io/my-portfolio",
+ "homepage": "https://Ananya-Arun.github.io/my-portfolio-v2"
+,
   "proxy": "http://localhost:3000"  
 }
